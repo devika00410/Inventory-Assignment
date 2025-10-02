@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "a563656e-307d-4125-93fd-77d249a872de",
+		"name": "Assignment",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48714823",
+		"_collection_link": "https://devikaanilkumar053-9783156.postman.co/workspace/7c07eedf-9dbc-45b1-8643-f3885188e887/collection/48714823-a563656e-307d-4125-93fd-77d249a872de?action=share&source=collection_link&creator=48714823"
+	},
+	"item": [
+		{
+			"name": "Inventory Assignment",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Inventory Assignment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 8,\r\n    \"name\": \"Beauty Shop\",\r\n    \"category\": \"Cosmetics\",\r\n    \"totalItems\": 35,\r\n    \"totalQuantity\": 280,\r\n    \"totalValue\": 12000.50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/inventory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"inventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inventory Assignment",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Premium Electronics Hub\",\r\n    \"category\": \"Electronics & Gadgets\",\r\n    \"totalItems\": 25,\r\n    \"totalQuantity\": 150,\r\n    \"totalValue\": 35000.75\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/inventory/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"inventory",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inventory Assignment",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category\": \"Fashion & Lifestyle\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/inventory/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"inventory",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inventory Assignment",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category\": \"Fashion & Lifestyle\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/inventory/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"inventory",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
