@@ -23,7 +23,7 @@ A simple backend system to manage inventory items using Express.js and JavaScrip
 - `PUT /inventory/1` - Update item with ID 1
 - `DELETE /inventory/1` - Delete item with ID 1
 
-## 🧪 How to Test with Postman
+##  How to Test with Postman
 
 ### 1. Get All Items
 - Method: `GET`
@@ -72,10 +72,10 @@ The system starts with 6 sample items:
 - No database setup required
 - Perfect for learning backend basics
 
-## ✅ Assignment Requirements Completed
-- ✅ Express server on port 3000
-- ✅ GET / and GET /health routes
-- ✅ Logging middleware
-- ✅ 404 error handling
-- ✅ POST and GET operations
-- ✅ Postman testing ready
+##  Assignment Requirements Completed
+-  Express server on port 3000
+-  GET / and GET /health routes
+-  Logging middleware
+-  404 error handling
+-  POST and GET operations
+-  Postman testing ready
